@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+    app:
+        image: 'schlupp2002/demo-v7:prod'
+        build: '.'
+        ports:
+            - 10000:80
